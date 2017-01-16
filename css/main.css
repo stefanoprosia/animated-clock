@@ -24,20 +24,20 @@ html {
   width: 14px;
   position: absolute;
   left: calc(50% - 8px);
-  top: 150px;
+  bottom: 150px;
 }
 
 .hand-hour {
   z-index: 2;
   animation: spin 6s infinite;
-  transform-origin: top;
+  transform-origin: bottom;
 
 }
 
 .hand-minute {
   z-index: 3;
   animation: spin 3s infinite;
-  transform-origin: top;
+  transform-origin: bottom;
 
 }
 
